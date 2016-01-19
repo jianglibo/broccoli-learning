@@ -1,0 +1,32 @@
+{
+  "name": "broccoli-learning",
+  "version": "1.0.0",
+  "description": "explore awesome broccoli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianglibo/broccoli-learning.git"
+  },
+  "keywords": [
+    "broccoli"
+  ],
+  "author": "jianglibo <jianglibo@gmail.com> (http://www.m3958.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianglibo/broccoli-learning/issues"
+  },
+  "homepage": "https://github.com/jianglibo/broccoli-learning#readme",
+  "devDependencies": {
+    "broccoli": "^0.16.9",
+    "broccoli-coffee": "^0.5.1",
+    "broccoli-es6-concatenator": "^0.1.11",
+    "broccoli-filter": "^1.2.3",
+    "broccoli-funnel": "^1.0.1",
+    "del": "^2.2.0",
+    "express": "^4.13.3"
+  },
+  "dependencies": {}
+}
