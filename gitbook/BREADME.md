@@ -8,3 +8,8 @@
 npm install --save-dev broccoli
 npm install --global broccoli-cli
 ```
+## Brocfile.js
+
+项目的根目录中的Brocfile.js用来描述构建。它必须输出一个节点（Node）。
+
+节点可以是一个目录的名称，或者一个插件（Plugin）。在Brocfile.js中通常在目录层面描述，具体的构建交给插件。

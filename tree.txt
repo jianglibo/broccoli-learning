@@ -1,0 +1,26 @@
+//treestart
+my-project/
+├── app/
+│   ├── coffee/
+│   │   └── app.coffee
+│   └── scss/
+│       ├── _variables.scss
+│       └── app.scss
+└── Brocfile.js
+//treeend
+开头是├──接着是名称。
+
+myproject
+*app
+**coffee
+***app.coffee
+**scss
+***_variables.scss
+***app.scss
+*Brocfile.js
+
+规律：
+第一颗星变成│。
+最后一颗星变成├──。
+同一级的最后一行的最后一颗星└──。
+中间的星变成3个空格。
