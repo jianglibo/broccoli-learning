@@ -13,3 +13,49 @@ npm install --global broccoli-cli
 项目的根目录中的Brocfile.js用来描述构建。它必须输出一个节点（Node）。
 
 节点可以是一个目录的名称，或者一个插件（Plugin）。在Brocfile.js中通常在目录层面描述，具体的构建交给插件。
+
+一个最简单的Brocfile.js.
+```js
+module.exports = 'app';
+```
+
+示例的目录：
+```
+app
+├─ main.js
+└─ helper.js
+Brocfile.js
+package.json
+```
+
+运行broccoli build the-output之后：
+```
+the-output
+├─ main.js
+└─ helper.js
+```
+
+## 在Brocfile.js里面使用插件
+
+下面的Brocfile.js将app的内容复制到appKit.
+```js
+var Funnel = require('broccoli-funnel')
+
+module.exports = new Funnel('app', {
+  destDir: 'appkit'
+})
+```
+运行broccoli build the-output之后，结果如下：
+
+```
+the-output
+└─ appkit
+   ├─ main.js
+   └─ helper.js
+```
+
+## 插件API规范（这个已经过时了）
+
+新的机制是只要继承Plugin对象即可。
+
+请继续阅读其它章节。

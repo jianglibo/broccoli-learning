@@ -14,6 +14,7 @@ module.exports = node;
 // tree = uglifyJS(tree)
 // return tree
 
+<<<<<<< Updated upstream
 // module.exports = function (broccoli) {
 //   console.log(broccoli);
 //   var filterCoffeeScript = require('broccoli-coffee');
@@ -30,3 +31,6 @@ module.exports = node;
 //
 //   return [appJs, publicFiles];
 // };
+=======
+
+// exports是指向module.exports的引用。
