@@ -1,13 +1,13 @@
 // var Funnel = require('broccoli-funnel');
-var Dump = require('./lib/dump');
+var TreeDisplay = require('./lib/tree-display');
 
 // module.exports = new Funnel('app', {
 //   destDir: 'appkit'
 // })
 
-var node = new Dump('app', 'ES6', 'ECMAScript 2015');
+var node = new TreeDisplay('app', 'ES6', 'ECMAScript 2015');
 
-module.exports = 'app';
+module.exports = node;
 
 // var tree = broccoli.makeTree('lib')
 // tree = compileCoffeeScript(tree)
