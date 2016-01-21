@@ -8,6 +8,16 @@ my-project/
 │       └── app.scss
 └── Brocfile.js
 //treeend
+
+└── myproject
+    ├── app
+    |   ├── coffee
+    |   |   └── app.coffee
+    |   └── scss
+    |       ├── _variables.scss
+    |       └── app.scss
+    └── Brocfile.js
+
 开头是├──接着是名称。
 
 myproject
@@ -24,3 +34,20 @@ myproject
 最后一颗星变成├──。
 同一级的最后一行的最后一颗星└──。
 中间的星变成3个空格。
+├── myproject
+    ├── app
+    |    ├── coffee
+    |        ├── app.coffee
+    |        └── scss
+    |            ├── _variables.scss
+    |            └── app.scss
+    └── Brocfile.js
+
+    ├── myproject
+        ├── app
+        |    ├── coffee
+        |    |    ├── app.coffee
+        |    └── scss
+        |        ├── _variables.scss
+        |        └── app.scss
+        └── Brocfile.js
