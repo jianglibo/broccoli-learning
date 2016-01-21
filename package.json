@@ -28,5 +28,8 @@
     "del": "^2.2.0",
     "express": "^4.13.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "copy-dereference": "^1.0.0",
+    "rimraf": "^2.5.0"
+  }
 }

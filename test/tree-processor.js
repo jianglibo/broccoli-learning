@@ -66,8 +66,8 @@ describe('TreeProcessor', function() {
     it('blocks', function() {
       var lines = ['a','c','d', 'b'];
       var tp = new TreeProcessor(lines, 'a', 'b');
-      tp.process(lines);
-      assert.equal(1, tp.blocks.length);
+      var newlines = tp.process(lines); //应该是中间2行，c，d
+      assert.equal(2, newlines.length);
     });
   });
 
@@ -80,7 +80,7 @@ describe('TreeProcessor', function() {
       assert.equal(1, o.level);
       assert.equal("ab", o.content);
 
-      var o = tp.splitLine("ab", "*");
+      o = tp.splitLine("ab", "*");
       assert.equal(0, o.level);
       assert.equal("ab", o.content);
     });
