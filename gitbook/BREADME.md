@@ -19,6 +19,14 @@ npm install --global broccoli-cli
 module.exports = 'app';
 ```
 
+{% asciitree %}
+app
+-main.js
+-helper.js
+Brocfile.js
+package.json
+{% endasciitree %}
+
 示例的目录：
 ```
 {% asciitree %}
