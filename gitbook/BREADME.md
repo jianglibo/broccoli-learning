@@ -19,16 +19,7 @@ npm install --global broccoli-cli
 module.exports = 'app';
 ```
 
-{% asciitree %}
-app
--main.js
--helper.js
-Brocfile.js
-package.json
-{% endasciitree %}
-
 示例的目录：
-```
 {% asciitree %}
 app
 -main.js
@@ -36,16 +27,13 @@ app
 Brocfile.js
 package.json
 {% endasciitree %}
-```
 
 运行broccoli build the-output之后：
-```
 {% asciitree %}
 the-output
 -main.js
 -helper.js
 {% endasciitree %}
-```
 
 ## 在Brocfile.js里面使用插件
 
@@ -59,14 +47,12 @@ module.exports = new Funnel('app', {
 ```
 运行broccoli build the-output之后，结果如下：
 
-```
 {% asciitree %}
 the-output
 -appkit
 --main.js
 --helper.js
 {% endasciitree %}
-```
 
 ## 插件API规范（这个已经过时了）
 
