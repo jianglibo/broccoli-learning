@@ -26,10 +26,10 @@
     "broccoli-filter": "^1.2.3",
     "broccoli-funnel": "^1.0.1",
     "del": "^2.2.0",
-    "express": "^4.13.3"
-  },
-  "dependencies": {
+    "express": "^4.13.3",
     "copy-dereference": "^1.0.0",
     "rimraf": "^2.5.0"
+  },
+  "dependencies": {
   }
 }

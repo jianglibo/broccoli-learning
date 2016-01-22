@@ -1,5 +1,11 @@
 {
-    "variables": {
-        "imgbase": "https://raw.githubusercontent.com/jianglibo/broccoli-learning/master/common/images"
+  "variables": {
+    "imgbase": "https://raw.githubusercontent.com/jianglibo/broccoli-learning/master/common/images"
+  },
+  "plugins": ["asciitree"],
+  "pluginsConfig": {
+    "asciitree": {
+      "leadingChar": "-"
     }
+  }
 }
