@@ -30,6 +30,5 @@
     "copy-dereference": "^1.0.0",
     "rimraf": "^2.5.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
