@@ -24,7 +24,7 @@ describe('ReadLine', function() {
       });
 
       lineReader.on('line', function(line) {
-        console.log('Line from file:', line);
+        // console.log('Line from file:', line);
       });
     });
   });
@@ -36,7 +36,7 @@ describe('Regex', function() {
       var str = "---abc---,---abc---";
       var re = /---(.*?)--/;
       var result = re.exec(str);
-      console.log(result.index);
+      // console.log(result.index);
       assert.equal("abc", result[1]);
       assert.equal(2, result.length);
     });

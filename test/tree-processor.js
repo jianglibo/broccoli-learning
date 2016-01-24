@@ -32,7 +32,7 @@ describe('TreeProcessor', function() {
 
       var topLine = tp._transform(sc);
       topLine.children.forEach(function(it){
-        console.log(util.inspect(it, 10));
+        // console.log(util.inspect(it, 10));
       });
       var colloctor = [];
 

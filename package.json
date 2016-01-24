@@ -25,11 +25,14 @@
     "broccoli-es6-concatenator": "^0.1.11",
     "broccoli-filter": "^1.2.3",
     "broccoli-funnel": "^1.0.1",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "copy-dereference": "^1.0.0",
     "del": "^2.2.0",
     "express": "^4.13.3",
-    "copy-dereference": "^1.0.0",
     "rimraf": "^2.5.0"
   },
   "dependencies": {
+    "rsvp": "^3.1.0"
   }
 }
